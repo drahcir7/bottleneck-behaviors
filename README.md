@@ -12,6 +12,6 @@ In the Neural network folder the script nn_bottleneck.sh allows for choosing the
 3. hidden layer size  : R, the number of descending neurons, can be looped over for fixed N, M
 4. sparsity           : sets the sparsity of the behavioral matrix
 5. number of clusters : sets the number of clusters in the behavioral matrix. If equal to zero then no clusters.
-6. noise              : sets the noise in the construction of the cluster, hence the level of modularity, computed with the networkx package (community module) by looking at the modularity of the best partition of the behavioral matrix.
+6. noise              : sets the noise in the construction of the cluster, hence the level of modularity, computed with the networkx package (community module) by looking at the modularity of the best partition of the behavioral matrix imported as a graph.
 7. number of samples  : sets the number of samples to run the analysis, each sample will have a different initialisation of parameters.
 
