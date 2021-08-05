@@ -19,3 +19,6 @@ Define the work path where you want your simulations to run in the bash script (
 
 The python code is launched in the bash script with grun (also in the Neural network folder, put it in your /usr/local/bin) and will run on GPUs (cuda) if available. If cuda is not available, it will run on CPU. If you do not have cuda installed you can just run it as a normal python script without grun.
 
+### Rerun the analysis of data produced with the NN code
+
+The codes to produce figures in the paper are organised in separate folders. You should extract the data from the compressed folders for Figures 4, 5 (parameters_boulder_270420.tar.gz) and Figure 2b (varying_systemsize.tar.gz).
