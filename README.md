@@ -5,7 +5,7 @@ The contributions to this work are equally from: Veronika Dubinkina, Anjalika Na
 
 ### Run the neural network simulation
 
-In the Neural network folder the script nn_bottleneck.sh allows for choosing the parameters needed for the NN simulation.
+In the Neural network folder the script nn_bottleneck.sh allows for choosing the parameters needed for the NN simulation
 
 1. input layer size   : N, the number of decision neurons, kept fixed
 2. output layer size  : M, the number of motor neurons, kept fixed
