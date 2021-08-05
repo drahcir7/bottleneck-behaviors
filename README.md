@@ -21,9 +21,9 @@ The contributions to this work are equally from: Veronika Dubinkina, Anjalika Na
 
 In the Neural network folder, the script nn_bottleneck.sh allows for choosing the parameters needed for the NN simulation
 
-1. *input layer size*   : N, the number of decision neurons, kept fixed in the current script, but it can be easily looped over.
-2. *output layer size*  : M, the number of motor neurons, kept fixed in the current script, but it can be easily looped over.
-3. *hidden layer size*  : R, the number of descending neurons, can be looped over for fixed N, M
+1. *input layer size*   : N, the number of decision neurons. Kept fixed in the current script, but it can be easily looped over.
+2. *output layer size*  : M, the number of motor neurons. Kept fixed in the current script, but it can be easily looped over.
+3. *hidden layer size*  : R, the number of descending neurons, is looped over for fixed N, M
 4. *sparsity*           : k, sets the sparsity of the behavioral matrix. Simulations in the paper are run so that k/N = 0.1, k is then chosen accordingly.
 5. *number of clusters* : sets the number of clusters in the behavioral matrix. If equal to zero then no clusters.
 6. *noise*              : sets the noise in the construction of the cluster, hence the level of modularity, computed with the networkx package (community module) by looking at the modularity of the best partition of the behavioral matrix imported as a graph.
