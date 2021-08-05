@@ -21,13 +21,13 @@ The contributions to this work are equally from: Veronika Dubinkina, Anjalika Na
 
 In the Neural network folder, the script nn_bottleneck.sh allows for choosing the parameters needed for the NN simulation
 
-1. *input layer size*   : N, the number of decision neurons. 
-2. *output layer size*  : M, the number of motor neurons.
-3. *hidden layer size*  : R, the number of descending neurons.
-4. *sparsity*           : k, sets the sparsity of the behavioral matrix. Simulations in the paper are run so that k/N = 0.1, k is then chosen accordingly.
-5. *number of clusters* : sets the number of clusters in the behavioral matrix. If equal to zero then no clusters.
-6. *noise*              : sets the noise in the construction of the cluster, hence the level of modularity, computed with the networkx package (community module) by looking at the modularity of the best partition of the behavioral matrix imported as a graph.
-7. *number of samples*  : sets the number of samples to run the analysis, each sample will have a different initialisation of parameters.
+- *input layer size*   : N, the number of decision neurons. 
+- *output layer size*  : M, the number of motor neurons.
+- *hidden layer size*  : R, the number of descending neurons.
+- *sparsity*           : k, sets the sparsity of the behavioral matrix. Simulations in the paper are run so that k/N = 0.1, k is then chosen accordingly.
+- *number of clusters* : sets the number of clusters in the behavioral matrix. If equal to zero then no clusters.
+- *noise*              : sets the noise in the construction of the cluster, hence the level of modularity, computed with the networkx package (community module) by looking at the modularity of the best partition of the behavioral matrix imported as a graph.
+- *number of samples*  : sets the number of samples to run the analysis, each sample will have a different initialisation of parameters.
 
 The parameters can be looped over to perform the different analysis presented in the paper. In the current version of the script N, M are kept fixed while varying R and initial condition.
 
