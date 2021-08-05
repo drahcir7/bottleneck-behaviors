@@ -29,7 +29,7 @@ for i in ${hidden_[@]}
 do
   for j in ${arr[@]}
   do
-    grun python nn_modularity.py --it_ind $j --inputSize $N --outputSize $M \
+    grun python nn_bottleneck.py --it_ind $j --inputSize $N --outputSize $M \
                                  --k_ind ${sparsity} --noise ${noise} \
                                  --nclust ${nclust} --hiddenSize $i \
                                  --learningRate ${lr} --epochs ${epochs}
