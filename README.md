@@ -15,3 +15,7 @@ In the Neural network folder the script nn_bottleneck.sh allows for choosing the
 6. *noise*              : sets the noise in the construction of the cluster, hence the level of modularity, computed with the networkx package (community module) by looking at the modularity of the best partition of the behavioral matrix imported as a graph.
 7. *number of samples*  : sets the number of samples to run the analysis, each sample will have a different initialisation of parameters.
 
+Define the work path where you want your simulations to run in the bash script (work_dir).
+
+The python code is launched in the bash script with grun and will run on GPUs (cuda) if available. If cuda is not available, it will run on CPU.
+
