@@ -8,9 +8,11 @@ The contributions to this work are equally from: Veronika Dubinkina, Anjalika Na
 @article{,
   author       = {},
   title        = {},
+  volume       = {},
+  number       = {},
   month        = ,
   year         = ,
-  publisher    = {},
+  pages        = {},
   doi          = {},
 }
 ```
