@@ -39,4 +39,4 @@ The python code is launched in the bash script with grun (also in the Neural net
 
 ## Rerun the analysis of data produced with the NN code
 
-The codes to produce the figures shown in the paper are organised in separate folders. You should extract the data from the compressed folders for Figures 4, 5 (parameters_boulder_270420.tar.gz) and Figure 2b (varying_systemsize.tar.gz). All data have been obtained through simulating the neural network in the relevant regimes.
+The codes to produce the figures shown in the paper are organised in separate folders. You should extract the data from the compressed folders for Figures 4, 5 (parameters_boulder_270420.tar.gz) and Figure 2b (varying_systemsize.tar.gz). All data have been obtained through simulating the neural network in the relevant regimes. Remember to put the right path to load the parameters!
