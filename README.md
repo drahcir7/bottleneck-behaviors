@@ -17,7 +17,7 @@ The contributions to this work are equally from: Veronika Dubinkina, Anjalika Na
 }
 ```
 
-### Run the neural network simulation
+## Run the neural network simulation
 
 In the Neural network folder, the script nn_bottleneck.sh allows for choosing the parameters needed for the NN simulation
 
@@ -37,6 +37,6 @@ The neural network is built with PyTorch, get it here https://pytorch.org/get-st
 
 The python code is launched in the bash script with grun (also in the Neural network folder, put it in your /usr/local/bin) and will run on GPUs (torch.cuda) if available. If torch.cuda is not available, it will run on CPU.
 
-### Rerun the analysis of data produced with the NN code
+## Rerun the analysis of data produced with the NN code
 
 The codes to produce the figures shown in the paper are organised in separate folders. You should extract the data from the compressed folders for Figures 4, 5 (parameters_boulder_270420.tar.gz) and Figure 2b (varying_systemsize.tar.gz). All data have been obtained through simulating the neural network in the relevant regimes.
