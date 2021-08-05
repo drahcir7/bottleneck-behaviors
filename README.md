@@ -17,5 +17,5 @@ In the Neural network folder the script nn_bottleneck.sh allows for choosing the
 
 Define the work path where you want your simulations to run in the bash script (work_dir).
 
-The python code is launched in the bash script with grun and will run on GPUs (cuda) if available. If cuda is not available, it will run on CPU.
+The python code is launched in the bash script with grun (also in the Neural network folder, put it in your /usr/local/bin) and will run on GPUs (cuda) if available. If cuda is not available, it will run on CPU. If you do not have cuda installed you can just run it as a normal python script without grun.
 
