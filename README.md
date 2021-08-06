@@ -6,13 +6,10 @@ The contributions to this work are equally from: Veronika Dubinkina, Anjalika Na
 ### Citing
 ```
 @article{,
-  author       = {},
-  title        = {},
-  volume       = {},
-  number       = {},
-  month        = ,
-  year         = ,
-  pages        = {},
+  author       = {A. Nande, V. Dubinkina, R. Ravasio. G. H. Zhang and G. J. Berman},
+  title        = {Modeling bottlenecks, modularity, and context-dependency in behavioral control},
+  month        = aug,
+  year         = 2021,
   doi          = {},
 }
 ```
