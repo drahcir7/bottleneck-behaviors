@@ -27,7 +27,7 @@ In the Neural network folder, the script nn_bottleneck.sh allows for choosing th
 - *sparsity*           : k, sets the sparsity of the behavioral matrix. Simulations in the paper are run so that k/N = 0.1, k is then chosen accordingly.
 - *number of clusters* : sets the number of clusters in the behavioral matrix. If equal to zero then no clusters.
 - *noise*              : sets the noise in the construction of the cluster, hence the level of modularity, computed with the networkx package (community module) by looking at the modularity of the best partition of the behavioral matrix imported as a graph.
-- *number of samples*  : sets the number of samples to run the analysis, each sample will have a different initialisation of parameters.
+- *number of samples*  : sets the number of samples to run the analysis, each sample will have a different random initialisation of the behavioral matrix.
 
 The parameters can be looped over to perform the different analysis presented in the paper. In the current version of the script N, M are kept fixed while varying R and initial condition.
 
