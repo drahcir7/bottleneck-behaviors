@@ -10,7 +10,7 @@ The contributions to this work are equally from: Veronika Dubinkina, Anjalika Na
   title        = {Modeling bottlenecks, modularity, and context-dependency in behavioral control},
   month        = aug,
   year         = 2021,
-  doi          = {},
+  doi          = {https://doi.org/10.1101/2021.08.06.455452},
 }
 ```
 
