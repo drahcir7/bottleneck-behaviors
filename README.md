@@ -10,7 +10,7 @@ The contributions to the work present in this GitHub are equally from: Veronika 
   title        = {Modeling bottlenecks, modularity, and context-dependency in behavioral control},
   month        = aug,
   year         = 2021,
-  doi          = {https://doi.org/10.1101/2021.08.06.455452},
+  doi          = {doi:10.1101/2021.08.06.455452},
 }
 ```
 
