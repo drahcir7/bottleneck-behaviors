@@ -32,7 +32,7 @@ Define the work path where you want your simulations to run in the bash script (
 
 The neural network is built with PyTorch, follow install instructions here https://pytorch.org/get-started/locally/.
 
-The python code is launched in the bash script with grun (also in the Neural network folder, put it in your /usr/local/bin) and will run on GPUs (torch.cuda) if available. If torch.cuda is not available, it will run on CPU.
+The python code is launched in the bash script with grun (also in the Neural network folder, put it in your /usr/local/bin. Credits to Mario Geiger for it.) and will run on GPUs (torch.cuda) if available. If torch.cuda is not available, it will run on CPU.
 
 ## Rerun the analysis of data produced with the NN code
 
